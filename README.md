@@ -15,3 +15,7 @@
 - LSP 服务器：coc-clangd 是 coc 拓展，这个拓展已经帮你完成了基本的配置，如果需要调整 coc-clangd 的行为，可以参考 coc-clangd 的文
 
 
+
+# My .bashrc
+个人用的bashrc配置记录，仅用作个人备份使用
+
