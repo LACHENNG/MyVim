@@ -8,6 +8,7 @@ Plug 'crusoexia/vim-monokai'
 Plug 'luochen1990/rainbow'
 Plug 'itchyny/lightline.vim'
 Plug 'voldikss/coc-cmake'
+Plug 'ilyachur/cmake4vim'
 call plug#end()
 
 
@@ -465,7 +466,7 @@ endif
 let g:cmake_cmakePath = '/usr/bin/cmake'
 
 " 设置cmake-format的路径
-let g:cmake_formatter = '/usr/bin/cmake-format'
+let g:cmake_formatter = '/home/cl/miniconda3/envs/dev/bin/cmake-format'
 
 " 设置是否启用语言服务器
 let g:cmake_lsp_enable = 1
@@ -476,4 +477,4 @@ let g:cmake_lsp_serverPath = '/usr/bin/clangd'
 " 设置语言服务器的构建目录
 let g:cmake_lsp_buildDirectory = 'build'
 
-
+set clipboard=unnamedplus
