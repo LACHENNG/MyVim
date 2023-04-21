@@ -1,0 +1,8 @@
+#!/bin/bash
+unset  https_proxy
+unset http_proxy
+unset all_proxy
+unset ALL_PROXY
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy

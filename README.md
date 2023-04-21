@@ -19,3 +19,7 @@
 # My .bashrc
 个人用的bashrc配置记录，仅用作个人备份使用
 
+# clash 代理快捷命令
+启动： source  proxyrc
+取消： source  uproxyrc 
+
